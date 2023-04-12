@@ -48,17 +48,17 @@
 
 									Try adding "border-radius: 50%;" to the style attribute.
 								-->
-								<img src="images/profil2.png" style="width:280px; height:280px; object-fit: cover;">
+								<img src="images/profil.jpeg" style="width:280px; height:280px; object-fit: cover;">
 								<!-- 	Here is a paragraph where you can put your position and institution, or
 									a short line about yourself.
 								-->
 								<p>
-									Data scientist and programmer <br> Finance
+									Data scientist/Data Analyst <br> 
 								</p>
 								<!-- Here is a paragraph where you can put a link to your CV -->
 								<p>
 									<!-- Note you will want to change where this points to! -->
-									<a href="documents/CV_Data_English.pdf" target="_blank">Curriculum Vitae</a>
+									<a href="documents/cv_datas_english.pdf" target="_blank">Curriculum Vitae</a>
 								</p>
 							</div>
 						</div>
@@ -74,7 +74,7 @@
 									<a href="#about">About Me</a>
 								</li>
 								<li>
-									<a href="#research">Research</a>
+									<a href="#research">Projects</a>
 								</li>
 								<li>
 									<a href="#community">Community</a>
@@ -106,11 +106,11 @@
 							<!-- Here are three paragraphs where you can fill out information about yourself -->
 							<p>
 								<!-- Items contained in <b> tags are bolded! -->
-								<b>Education: I am a recent graduate from Ecole Centrale with a Data Science and Digitalization Option (S2D) - Management Track and I have 20 months of experience. My background in mathematics and my strong analytical mindset have prepared me well for a career in data science.
+								<b>Education: I am a recent graduate from Ecole Centrale with a Data Science and Digitalization Option (S2D) - Management Track and I have two years of experience. My background in mathematics and my strong analytical mindset have prepared me well for a career in data science.
 </b>
 							</p>
 							<p>
-								<b>Research Interests: I’m currently learning Machine learning and Deep learning models. I’m looking to collaborate on Machine learning and Deep learning projects</b>
+								<b>Research Interests: I’m currently learning Data science that includes Machine learning and Deep learning. I’m looking to collaborate on data science projects</b>
 							</p>
 							<p>
 								<b>Publications:</b> All of my projects are available on <a href="https://github.com/abou96">my github account</a>
@@ -127,7 +127,25 @@
 								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
 									the next line.
 								-->
-								<b>Project I Title</b><br>Project description, including further links to posters, talks, publications.
+
+									<p><b>2023-04-10</b> </p>
+									<b>Project I : Building a data pipeline based on the Methane emissions data from the WorldBank API.</b>  
+								<span class="image main">
+									<img src="images/data_pipeline.png" alt=""/>
+								</span>
+								<p>In this project, I build a data pipeline using python. the project consists in creating a RestAPI (FastAPI) with a specific endpoint that will be able to return the Methane emissions for a country at a specific year.</p>
+
+								The project includes the following steps:
+
+								<ol>
+									<li>Data retrieval: Using a Python script to retrieve methane emission data from the World Bank API using the WBGAPI module.</li>
+									<li>Data estimation: Using various methods such as rolling statistical, KNNImputer, and linear interpolation to estimate missing methane emission data.</li>
+									<li>Uncertainty computation: Using the bootstrapping method to calculate the uncertainty of the estimated values.</li>
+									<li>Scoring methodology: Evaluating countries based on their methane emissions using various methods such as total emissions, emissions per area, emissions per capita, and emission intensity.
+									<li>Data visualization: Creating interactive visualizations using the power BI to present the results.
+									<li>REST API (FastAPI) to return the Methane emissions for a country at a specific year.
+								  </ol>
+								  <p>Here is the link to the <a href="https://github.com/abou96/WorldBankProject"><b>code</b></a></p>
 							</p>
 							<p>
 								<b>Project II Title</b><br>Project description, including further links to posters, talks, publications.
@@ -212,7 +230,7 @@
 						<!-- 	You can change "Untitled" to your name to show everyone that
 							this is your work.
 						-->
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<!-- <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> -->
 					</footer>
 
 			</div>
